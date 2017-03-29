@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:derby://localhost:1527/demo
+    driver-class-name: org.apache.derby.jdbc.ClientDriver
+    
+custom:
+  porperties:
+    propiedad: Valor de la propiedad

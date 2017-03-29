@@ -12,7 +12,8 @@ public class ConfiguracionWebMvc {
 
 	//Si se necesitarian definir Beans de Negocio
 	@Bean
-	public String saludo(){
+	public String saludo(Saludador saludador){
+		
 		return new String("Hola Mundo!!!!");
 	}
 	
